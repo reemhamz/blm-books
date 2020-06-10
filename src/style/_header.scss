@@ -1,0 +1,41 @@
+.Header {
+  font-family: "United Sans SemiCond";
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 15em;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-text-stroke: 1px white;
+    &::before {
+      content: "#";
+      color: white;
+      position: absolute;
+      right: 400px;
+      top: 15px;
+      -webkit-text-stroke: 2px black;
+    }
+    span {
+      display: block;
+      color: white;
+      -webkit-text-stroke: 2px black;
+    }
+  }
+}
+
+.Header {
+    h2{
+        color: white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        span {
+            display: block;
+            color: #ffe8d6;
+        }
+    }
+}

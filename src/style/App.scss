@@ -1,0 +1,29 @@
+@import 'setup.scss';
+@import 'header.scss';
+@import 'gallery.scss';
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    max-width: 1080px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+      background-color: #393e46;
+}
+
+footer {
+    padding: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #63686e;
+    color: #ffe8d6;
+    margin-top: 50px;
+    a{
+        color: #74b49b;
+    }
+}
